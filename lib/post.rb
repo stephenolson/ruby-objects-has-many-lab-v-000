@@ -6,10 +6,6 @@ class Post
   end
   
   def author_name
-    self.artist.name
-  end
-  
-  def author_name
     if self.author
       self.author.name
     else
