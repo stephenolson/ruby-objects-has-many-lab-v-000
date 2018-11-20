@@ -5,7 +5,7 @@ class Post
     @title = title
   end
   
-  def self.artist
+  def author_name
     self.artist.name
   end
   
