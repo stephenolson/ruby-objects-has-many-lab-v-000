@@ -1,26 +1,3 @@
-Skip to content
-Why GitHub? 
-Business
-Explore 
-Marketplace
-Pricing 
-
-Search
-
-Sign in
-Sign up
-0 0 1,474 z00kie/ruby-objects-has-many-lab-v-000
-forked from learn-co-students/ruby-objects-has-many-lab-v-000
- Code  Pull requests 0  Projects 0  Insights
-Join GitHub today
-GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.
-
-ruby-objects-has-many-lab-v-000/lib/artist.rb
-2073f86  on Jan 8
-@z00kie z00kie Done.
-@SophieDeBenedetto @z00kie
-     
-31 lines (25 sloc)  426 Bytes
 class Artist
   attr_accessor :name, :song
   @@song_count = 0
