@@ -9,7 +9,7 @@ class Post
     self.artist.name
   end
   
-  def artist_name
+  def author_name
     if self.artist
       self.artist.name
     else
